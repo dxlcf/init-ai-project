@@ -1,0 +1,48 @@
+# {{PROJECT_NAME}}
+
+## 产品简介
+
+{{PRODUCT_SUMMARY}}
+
+## 用户已确认的技术选择
+
+| 层次 | 方案 |
+| --- | --- |
+| 前端 | {{FRONTEND}} |
+| 后端 | {{BACKEND}} |
+| 数据库 | {{DATABASE}} |
+| Agent 框架或 Harness | {{AGENT}} |
+| 模型来源 | {{MODEL_PROVIDER}} |
+
+## 已确认的应用结构
+
+{{LAYOUT_SUMMARY}}
+
+## 当前进度
+
+**已完成项目骨架，尚未开始应用实现。** 本目录不包含业务代码、已安装依赖、可运行 Docker 镜像或真实业务测试。
+
+## 启动与测试
+
+**尚无可执行命令。** 等所选应用和模块的真实代码创建并验证后，补上实际的依赖安装、启动和测试命令；采用 Docker 时再补充经验证的容器操作。不要把猜测的命令写成已验证用法。
+
+## 下一步
+
+1. 根据 `docs/product/brief.md` 选择第一个功能，检查相关未决项并沿用已记录的验收条件。
+2. 按 `docs/development/sdd.md` 判断文档需求，再实施相应模块及测试。
+
+## 开发规范入口
+
+| 文件 | 用途 |
+| --- | --- |
+| `AGENTS.md` | AI 编码代理必须遵循的开发规则 |
+| `CONTRIBUTING.md` | Git 提交格式和提交前检查 |
+| `docs/development/sdd.md` | 轻量 SDD：哪些任务不需要文档、何时需要 spec/plan |
+| `specs/_templates/` | 真正开展功能开发时才复制的文档模板 |
+| `CHANGELOG.md` | 未发布改动及后续版本变更记录 |
+| `docs/product/brief.md` | 产品范围、关键用户流程、成功标准与未决事项 |
+| `docs/architecture/overview.md` | 架构概览与模块边界 |
+| `docs/adr/0001-technology-stack.md` | 技术选型决策记录 |
+| `docs/testing/strategy.md` | 产品验收路径与后续测试策略 |
+
+初始化脚本不执行 `git init`；使用 Git 前检查目标目录及其父目录的仓库状态。

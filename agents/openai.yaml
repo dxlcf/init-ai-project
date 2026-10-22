@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI 项目初始化（手动）"
+  short_description: "通过多轮对话理清 AI 应用设计，确认后生成设计文档和项目骨架"
+  default_prompt: "使用 $init-ai-project 与我一起理清 AI 应用的需求、流程和技术设计，确认后初始化设计文档与项目骨架。"
+policy:
+  allow_implicit_invocation: false
